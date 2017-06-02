@@ -1,9 +1,7 @@
-<canvas id="gc" width="400" height="400"></canvas>
-<script>
-	window.onload=function() {
-		canv=document.getElementById("gc");
+window.onload=function() {
+		canv=documment.getElementById("gc");
 		ctx=canv.getContext("2d");
-		document.addEventListener("keydown", keyPush)
+		document.addEventListener("keydown", keyPush);
 		setInterval(game, 1000 / 15);
 	}
 
@@ -73,4 +71,3 @@
 				break;
 		}
 	}
-</script>
